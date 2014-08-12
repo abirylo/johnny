@@ -21,13 +21,12 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-#include "johnny.h"
+#include "drive.h"
 #include <ros/ros.h>
 
 int main(int argc, char **argv){
 
-  ros::init(argc, argv, "johnny");
-  ros::NodeHandle n;
+  ros::init(argc, argv, "drive");
 
   ros::spin();
 

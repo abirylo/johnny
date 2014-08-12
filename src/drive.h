@@ -21,16 +21,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 
-#include "johnny.h"
-#include <ros/ros.h>
+#ifndef DRIVE_H
+#define DRIVE_H
 
-int main(int argc, char **argv){
-
-  ros::init(argc, argv, "johnny");
-  ros::NodeHandle n;
-
-  ros::spin();
-
-  return 0;
-
-}
+#endif // DRIVE_H

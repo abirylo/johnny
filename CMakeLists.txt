@@ -102,16 +102,16 @@ include_directories(
 # )
 
 ## Declare a cpp executable
-# add_executable(test_node src/test_node.cpp)
+add_executable(johnny src/johnny.cpp)
+add_executable(drive src/drive.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
 # add_dependencies(test_node test_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(test_node
-#   ${catkin_LIBRARIES}
-# )
+target_link_libraries(johnny ${catkin_LIBRARIES})
+target_link_libraries(drive ${catkin_LIBRARIES})
 
 #############
 ## Install ##
