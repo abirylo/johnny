@@ -1,0 +1,14 @@
+build/
+bin/
+lib/
+msg_gen/
+srv_gen/
+
+CMakeLists.txt.user
+
+qtcreator-*
+*.user
+
+*~
+
+CATKIN_IGNORE
