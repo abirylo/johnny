@@ -104,6 +104,8 @@ include_directories(
 ## Declare a cpp executable
 add_executable(johnny src/johnny.cpp)
 add_executable(drive src/drive.cpp)
+add_executable(heartbeat src/heartbeat.cpp)
+add_executable(joy2drive src/joy2drive.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
@@ -112,6 +114,8 @@ add_executable(drive src/drive.cpp)
 ## Specify libraries to link a library or executable target against
 target_link_libraries(johnny ${catkin_LIBRARIES})
 target_link_libraries(drive ${catkin_LIBRARIES})
+target_link_libraries(heartbeat ${catkin_LIBRARIES})
+target_link_libraries(joy2drive ${catkin_LIBRARIES})
 
 #############
 ## Install ##
